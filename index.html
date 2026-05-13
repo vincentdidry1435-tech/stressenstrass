@@ -3,92 +3,120 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>STRESS EN STRASS — Agence artistes techno industrielle</title>
-  <meta name="description" content="STRESS EN STRASS — agence artistique indépendante. Booking et présentation d'artistes techno, industrielle, acid et underground." />
+  <title>STRESS EN STRASS — Agence techno underground</title>
+  <meta name="description" content="STRESS EN STRASS — agence artistique indépendante pour artistes techno, acid, rave et sons industriels." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="noise"></div>
-  <header class="site-header">
-    <a class="brand" href="index.html" aria-label="Accueil STRESS EN STRASS">
-      <span class="brand-mark">SES</span>
-      <span class="brand-name">STRESS EN STRASS</span>
-    </a>
-    <nav class="main-nav" aria-label="Navigation principale">
-      <a href="#artists">Artistes</a>
-      <a href="#booking">Booking</a>
-      <a href="mailto:booking@stressenstrass.fr">Contact</a>
+  <div class="scanline"></div>
+  <div class="cursor-light" id="cursorLight"></div>
+
+  <header class="topbar">
+    <a class="brand glitch" href="index.html" data-text="STRESS EN STRASS">STRESS EN STRASS</a>
+    <nav>
+      <a href="#artists">ARTISTES</a>
+      <a href="#booking">BOOKING</a>
+      <a href="mailto:booking@stressenstrass.fr">MAIL</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero grid-bg">
-      <p class="eyebrow">Agence indépendante / techno industrielle / underground</p>
-      <h1>Booking d’artistes électroniques à identité forte.</h1>
-      <p class="hero-text">STRESS EN STRASS présente et développe des artistes pour clubs, collectifs, warehouses, open airs et événements électroniques sombres.</p>
+    <section class="hero section-reveal">
+      <div class="hero-kicker">AGENCE INDÉPENDANTE · TECHNO · RAVE · ACID</div>
+      <h1>
+        BOOKING POUR<br>
+        ARTISTES À<br>
+        HAUTE TENSION.
+      </h1>
+      <p class="hero-text">
+        STRESS EN STRASS représente des profils électroniques sombres, bruts et scéniques :
+        DJ sets, performances, clubs, collectifs, open airs et programmations alternatives.
+      </p>
       <div class="hero-actions">
-        <a class="btn primary" href="#artists">Voir les artistes</a>
-        <a class="btn ghost" href="mailto:booking@stressenstrass.fr?subject=Booking%20-%20STRESS%20EN%20STRASS">Demande booking</a>
+        <a class="btn primary" href="#artists">VOIR LES ARTISTES</a>
+        <a class="btn" href="mailto:booking@stressenstrass.fr?subject=Booking%20-%20STRESS%20EN%20STRASS">DEMANDER UN BOOKING</a>
       </div>
     </section>
 
-    <section class="manifesto">
+    <section class="marquee" aria-label="styles musicaux">
+      <div class="marquee-track">
+        <span>TECHNO INDUSTRIELLE</span><span>ACID</span><span>RAVE</span><span>UNDERGROUND</span><span>CLUB PRESSURE</span><span>WAREHOUSE ENERGY</span>
+        <span>TECHNO INDUSTRIELLE</span><span>ACID</span><span>RAVE</span><span>UNDERGROUND</span><span>CLUB PRESSURE</span><span>WAREHOUSE ENERGY</span>
+      </div>
+    </section>
+
+    <section class="manifest section-reveal">
+      <div class="number">01</div>
       <div>
-        <p class="section-kicker">Positionnement</p>
-        <h2>Dark, brut, lisible.</h2>
+        <h2>Pas une vitrine froide. Une présence.</h2>
+        <p>
+          L'agence existe pour rendre les artistes underground plus visibles, plus clairs, plus bookables —
+          sans nettoyer leur identité. Noir, brut, direct. Chaque page artiste doit donner envie d'écouter,
+          de contacter, puis de programmer.
+        </p>
       </div>
-      <p>Une vitrine sobre pour des artistes techno, indus, acid et rave. Chaque fiche artiste centralise la bio, les liens, le style, les formats disponibles et le contact booking.</p>
     </section>
 
-    <section class="artists-section" id="artists">
+    <section id="artists" class="artists section-reveal">
       <div class="section-head">
-        <p class="section-kicker">Roster</p>
-        <h2>Artistes</h2>
+        <span>02</span>
+        <h2>ARTISTES</h2>
       </div>
 
       <div class="artist-grid">
-        <article class="artist-card featured">
-          <a href="artists/severe.html" class="card-link" aria-label="Voir la fiche artiste SEVERE">
-            <div class="artist-photo placeholder">
-              <span>SEVERE</span>
-            </div>
-            <div class="artist-info">
-              <p class="artist-tag">Techno industrielle / Acid / Rave</p>
-              <h3>SEVERE</h3>
-              <p>Set sombre, tension progressive, énergie warehouse.</p>
-              <span class="card-cta">Voir la fiche →</span>
-            </div>
-          </a>
-        </article>
+        <a class="artist-card live" href="artists/severe.html">
+          <div class="artist-img severe-img"></div>
+          <div class="artist-meta">
+            <span class="status">AVAILABLE FOR BOOKING</span>
+            <h3>SEVERE</h3>
+            <p>Techno sombre · Acid pressure · Set industriel</p>
+          </div>
+        </a>
 
-        <article class="artist-card empty-slot">
-          <div class="artist-photo placeholder muted">
-            <span>+</span>
+        <div class="artist-card empty">
+          <div class="empty-cross"></div>
+          <div class="artist-meta">
+            <span class="status muted">COMING SOON</span>
+            <h3>NOUVEL ARTISTE</h3>
+            <p>Duplique la page SEVERE pour ajouter un profil.</p>
           </div>
-          <div class="artist-info">
-            <p class="artist-tag">Prochain artiste</p>
-            <h3>À venir</h3>
-            <p>Duplique la page artiste modèle pour ajouter un nouveau profil.</p>
+        </div>
+
+        <div class="artist-card empty">
+          <div class="empty-cross"></div>
+          <div class="artist-meta">
+            <span class="status muted">COMING SOON</span>
+            <h3>NOUVEL ARTISTE</h3>
+            <p>Structure prête pour développer le roster.</p>
           </div>
-        </article>
+        </div>
       </div>
     </section>
 
-    <section class="booking-panel" id="booking">
-      <div>
-        <p class="section-kicker">Booking</p>
-        <h2>Une demande claire, une réponse rapide.</h2>
+    <section id="booking" class="booking section-reveal">
+      <div class="section-head">
+        <span>03</span>
+        <h2>BOOKING</h2>
       </div>
-      <div class="booking-copy">
-        <p>Pour demander un artiste, indique la date, la ville, le lieu, le format, l’horaire, le budget approximatif et les conditions techniques disponibles.</p>
-        <a class="btn primary" href="mailto:booking@stressenstrass.fr?subject=Demande%20booking%20-%20STRESS%20EN%20STRASS&body=Bonjour,%0D%0A%0D%0AJe souhaite une information booking.%0D%0A%0D%0AArtiste souhaité :%0D%0ADate :%0D%0AVille / lieu :%0D%0AFormat :%0D%0AHoraire :%0D%0ABudget :%0D%0AMatériel disponible :%0D%0A%0D%0AMerci.">booking@stressenstrass.fr</a>
+      <div class="booking-panel">
+        <p>
+          Pour une demande de booking, indique : date, ville, lieu, type d'événement,
+          durée souhaitée, budget approximatif, horaires et matériel disponible.
+        </p>
+        <a class="btn primary large" href="mailto:booking@stressenstrass.fr?subject=Demande%20de%20booking%20-%20STRESS%20EN%20STRASS">booking@stressenstrass.fr</a>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <span>© STRESS EN STRASS</span>
-    <span>Booking · Artist development · Techno industrielle</span>
+  <footer>
+    <span>STRESS EN STRASS ©</span>
+    <span>MARSEILLE / FRANCE</span>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

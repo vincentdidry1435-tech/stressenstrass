@@ -1,30 +1,25 @@
-STRESS EN STRASS — VERSION INDUSTRIAL DARK TECHNO
+STRESS EN STRASS — TEMPLATE AUTHENTIC DARK TECHNO
 
-STRUCTURE
-- index.html : page d'accueil + grille artistes
+FICHIERS :
+- index.html : page d'accueil avec roster artistes
 - artists/severe.html : page artiste SEVERE
-- style.css : design global
-- assets/ : dossier pour les photos
+- style.css : design sombre techno industriel
+- script.js : animations simples
+- assets/ : images
 
-AJOUTER UNE PHOTO À SEVERE
-1. Mets la photo dans assets/
-2. Renomme-la severe.jpg
-3. Dans artists/severe.html, remplace le bloc :
-   <div class="artist-photo large placeholder">...</div>
-   par :
-   <img class="artist-photo large" src="../assets/severe.jpg" alt="SEVERE" />
+PHOTO SEVERE :
+Place une image dans assets/ et nomme-la severe.jpg
+Si tu n'ajoutes pas d'image, le bloc reste sombre mais l'effet fonctionne.
 
-AJOUTER UN NOUVEL ARTISTE
+MODIFIER LES RÉSEAUX :
+Ouvre artists/severe.html et remplace les href="#" par les vrais liens Instagram, SoundCloud, YouTube, TikTok.
+
+AJOUTER UN ARTISTE PLUS TARD :
 1. Duplique artists/severe.html
-2. Renomme le fichier : artists/nom-artiste.html
-3. Remplace SEVERE par le nom du nouvel artiste
-4. Change la bio, les styles, les liens réseaux et le mailto subject
-5. Dans index.html, duplique la carte artiste SEVERE dans la section artist-grid
-6. Change le lien vers artists/nom-artiste.html
+2. Renomme par exemple artists/nomartiste.html
+3. Remplace SEVERE par le nom de l'artiste
+4. Ajoute sa photo dans assets/nomartiste.jpg
+5. Dans index.html, duplique la carte artiste et change le lien vers la nouvelle page.
 
-EMAIL BOOKING
-Tous les boutons pointent vers : booking@stressenstrass.fr
-
-CONSEIL
-Garde cette structure : une page accueil + une page par artiste.
-C'est simple, rapide à mettre à jour, et propre pour envoyer un lien aux organisateurs.
+MAIL BOOKING :
+Tous les boutons sont branchés sur booking@stressenstrass.fr

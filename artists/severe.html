@@ -4,82 +4,92 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SEVERE — STRESS EN STRASS</title>
-  <meta name="description" content="Fiche artiste SEVERE — techno industrielle, acid, rave. Booking via STRESS EN STRASS." />
+  <meta name="description" content="SEVERE — artiste techno sombre disponible au booking via STRESS EN STRASS." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <div class="noise"></div>
-  <header class="site-header">
-    <a class="brand" href="../index.html" aria-label="Accueil STRESS EN STRASS">
-      <span class="brand-mark">SES</span>
-      <span class="brand-name">STRESS EN STRASS</span>
-    </a>
-    <nav class="main-nav" aria-label="Navigation principale">
-      <a href="../index.html#artists">Artistes</a>
-      <a href="#booking">Booking</a>
-      <a href="mailto:booking@stressenstrass.fr">Contact</a>
+  <div class="scanline"></div>
+  <div class="cursor-light" id="cursorLight"></div>
+
+  <header class="topbar">
+    <a class="brand" href="../index.html">STRESS EN STRASS</a>
+    <nav>
+      <a href="../index.html#artists">ARTISTES</a>
+      <a href="mailto:booking@stressenstrass.fr">BOOKING</a>
     </nav>
   </header>
 
   <main class="artist-page">
-    <section class="artist-hero grid-bg">
-      <div class="artist-visual">
-        <div class="artist-photo large placeholder">
-          <span>SEVERE</span>
+    <section class="artist-hero section-reveal">
+      <div class="artist-visual severe-img"></div>
+      <div class="artist-copy">
+        <div class="hero-kicker">ARTISTE · STRESS EN STRASS</div>
+        <h1 class="artist-title glitch" data-text="SEVERE">SEVERE</h1>
+        <p class="artist-subtitle">Techno sombre · Acid pressure · Énergie industrielle</p>
+        <p class="artist-bio">
+          SEVERE construit un univers frontal, nocturne et tendu, pensé pour les clubs,
+          warehouses, collectifs et programmations électroniques alternatives. Une sélection
+          directe, sombre et efficace, entre pression industrielle, lignes acides et groove rave.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="mailto:booking@stressenstrass.fr?subject=Booking%20-%20SEVERE">BOOKER SEVERE</a>
+          <a class="btn" href="#links">RÉSEAUX</a>
         </div>
-        <!-- Pour ajouter une vraie photo : remplace le bloc ci-dessus par :
-        <img class="artist-photo large" src="../assets/severe.jpg" alt="SEVERE" />
-        -->
-      </div>
-
-      <div class="artist-content">
-        <p class="eyebrow">STRESS EN STRASS présente</p>
-        <h1>SEVERE</h1>
-        <p class="artist-subtitle">Techno industrielle / Acid / Rave — France</p>
-        <p class="artist-bio">SEVERE développe un univers sombre et frontal, entre tension industrielle, textures acid et énergie rave. Ses sets sont pensés pour créer une montée progressive, physique et directe, adaptée aux clubs, collectifs, warehouses et événements électroniques underground.</p>
-        <div class="link-row">
-          <a href="#" target="_blank" rel="noreferrer">Instagram</a>
-          <a href="#" target="_blank" rel="noreferrer">SoundCloud</a>
-          <a href="#" target="_blank" rel="noreferrer">YouTube</a>
-          <a href="#" target="_blank" rel="noreferrer">TikTok</a>
-        </div>
-        <a class="btn primary" href="mailto:booking@stressenstrass.fr?subject=Booking%20-%20SEVERE&body=Bonjour,%0D%0A%0D%0AJe souhaite recevoir des informations pour booker SEVERE.%0D%0A%0D%0ADate :%0D%0AVille / lieu :%0D%0AType d’événement :%0D%0AHoraire souhaité :%0D%0ABudget approximatif :%0D%0AMatériel disponible :%0D%0A%0D%0AMerci.">Booker SEVERE</a>
       </div>
     </section>
 
-    <section class="artist-details">
+    <section class="artist-details section-reveal">
       <div class="detail-card">
-        <p class="section-kicker">Format</p>
-        <h2>DJ set</h2>
-        <p>Disponible pour sets de 1h, 1h30 ou 2h selon l’événement.</p>
+        <span>FORMAT</span>
+        <strong>DJ SET</strong>
       </div>
       <div class="detail-card">
-        <p class="section-kicker">Styles</p>
-        <h2>Indus / Acid / Rave</h2>
-        <p>Techno sombre, énergie warehouse, tension progressive.</p>
+        <span>DURÉE</span>
+        <strong>1H / 1H30 / 2H</strong>
       </div>
       <div class="detail-card">
-        <p class="section-kicker">Déplacement</p>
-        <h2>France</h2>
-        <p>Déplacement selon conditions, horaires et prise en charge.</p>
+        <span>BASE</span>
+        <strong>MARSEILLE / FRANCE</strong>
+      </div>
+      <div class="detail-card">
+        <span>STYLE</span>
+        <strong>TECHNO · ACID · RAVE</strong>
       </div>
     </section>
 
-    <section class="booking-panel" id="booking">
-      <div>
-        <p class="section-kicker">Booking</p>
-        <h2>Demander SEVERE</h2>
+    <section id="links" class="links-panel section-reveal">
+      <div class="section-head">
+        <span>LINKS</span>
+        <h2>ÉCOUTER / SUIVRE</h2>
       </div>
-      <div class="booking-copy">
-        <p>Merci d’indiquer la date, ville, lieu, type d’événement, durée du set, budget approximatif et matériel disponible.</p>
-        <a class="btn primary" href="mailto:booking@stressenstrass.fr?subject=Booking%20-%20SEVERE">booking@stressenstrass.fr</a>
+      <div class="links-grid">
+        <a href="#" target="_blank" rel="noreferrer">INSTAGRAM</a>
+        <a href="#" target="_blank" rel="noreferrer">SOUNDCLOUD</a>
+        <a href="#" target="_blank" rel="noreferrer">YOUTUBE</a>
+        <a href="#" target="_blank" rel="noreferrer">TIKTOK</a>
+      </div>
+    </section>
+
+    <section class="booking artist-booking section-reveal">
+      <div class="booking-panel">
+        <p>
+          Demande de booking : ajoute la date, la ville, le lieu, les horaires, le budget,
+          le format souhaité et le matériel disponible.
+        </p>
+        <a class="btn primary large" href="mailto:booking@stressenstrass.fr?subject=Booking%20-%20SEVERE">booking@stressenstrass.fr</a>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <a href="../index.html">← Retour artistes</a>
-    <span>© STRESS EN STRASS</span>
+  <footer>
+    <span>SEVERE</span>
+    <span>STRESS EN STRASS</span>
   </footer>
+
+  <script src="../script.js"></script>
 </body>
 </html>
