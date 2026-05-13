@@ -1,33 +1,28 @@
-STRESS EN STRASS — VERSION FINALE AGENCE
+STRESS EN STRASS — version corrigée animations 3D + curseur diamant
 
-Cette version est construite comme une vraie vitrine d'agence de booking techno / hard techno / industrielle :
-- Homepage agence forte
-- Roster évolutif
-- Page artiste SEVERE
-- Diamant 3D animé
-- Curseur diamant
-- SoundCloud SEVERE intégré
-- Instagram agence et artiste intégrés
-- Tous les boutons booking vers booking@stressenstrass.com
-- SEO propre
+FICHIERS PRINCIPAUX
+- index.html : accueil agence
+- artists/severe.html : page artiste SEVERE
+- style.css : design + diamant 3D + curseur diamant
+- script.js : souris diamant + animations au scroll
 
-IMPORTANT TYPO :
-Le fichier gothicum.ttf n'est pas inclus.
-Mets ton fichier de typo ici :
+TYPO
+Place le fichier de police ici :
 assets/fonts/gothicum.ttf
 
-PHOTO SEVERE :
-Remplace la photo provisoire par ta vraie photo ici :
+PHOTO SEVERE
+Remplace l'image provisoire ici :
 assets/img/severe.jpg
-Garde exactement le même nom.
 
-LIENS :
-Agence Instagram : https://www.instagram.com/stressenstrass_agency/
-SEVERE Instagram : https://www.instagram.com/severefrommars/
-SEVERE SoundCloud : https://soundcloud.com/severefrommars
-Booking : booking@stressenstrass.com
+BOOKING
+Tous les boutons booking utilisent :
+booking@stressenstrass.com
 
-MISE EN LIGNE IONOS :
-Envoie tout le contenu du dossier à la racine de ton hébergement.
-La page d'accueil doit être index.html.
-La page SEVERE sera accessible ici : /artists/severe.html
+INSTAGRAM
+Agence : https://www.instagram.com/stressenstrass_agency/
+SEVERE : https://www.instagram.com/severefrommars/
+
+NOTE IMPORTANTE
+Le curseur diamant s'affiche uniquement sur ordinateur avec souris/trackpad.
+Sur mobile/tablette, il est désactivé volontairement pour éviter de gêner le tactile.
+Le diamant 3D est dans le hero de la page d'accueil.
