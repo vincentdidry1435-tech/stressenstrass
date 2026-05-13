@@ -1,29 +1,29 @@
-STRESS EN STRASS — VERSION AVEC TYPO GOTHICUM
+STRESS EN STRASS — version SEVERE enrichie
 
-IMPORTANT : la police gothicum.ttf n'est PAS incluse dans ce dossier.
-Pour l'utiliser :
-
-1. Crée le dossier : assets/fonts/
-2. Place ton fichier de police dedans.
-3. Renomme le fichier exactement : gothicum.ttf
-
-Chemin final obligatoire :
-assets/fonts/gothicum.ttf
-
-Le CSS contient déjà :
-@font-face { font-family: "Gothicum"; src: url("./assets/fonts/gothicum.ttf") format("truetype"); }
-
-Pages :
-- index.html : accueil agence / roster
+FICHIERS :
+- index.html : accueil agence + roster
 - artists/severe.html : page artiste SEVERE
-- style.css : design + typographie
+- style.css : design dark techno / gothique / industriel
 - script.js : animations
+- assets/severe.jpg : photo SEVERE à remplacer
+- assets/favicon.svg : logo tribal
 
-Pour la photo de SEVERE :
-Remplace assets/severe.jpg par ta vraie photo, en gardant le même nom.
+TYPO GOTHICUM :
+Le site est configuré pour utiliser : assets/fonts/gothicum.ttf
+Le fichier de police n'est pas inclus.
+Crée le dossier assets/fonts/ puis mets ton fichier gothicum.ttf dedans.
 
-Pour les réseaux :
-Ouvre artists/severe.html et remplace les liens #.
+SOUNDCLOUD :
+Le profil intégré est : https://soundcloud.com/severefrommars
+La page artiste contient un player SoundCloud intégré.
 
-Mail booking :
-booking@stressenstrass.fr
+INSTAGRAM :
+Le lien actuellement mis est : https://www.instagram.com/severefrommars/
+À vérifier. Si ce n'est pas le bon compte, remplace-le dans index.html et artists/severe.html.
+
+BOOKING :
+Tous les boutons ouvrent un mail vers : booking@stressenstrass.fr
+
+PHOTO :
+Remplace assets/severe.jpg par une vraie photo en gardant exactement le même nom.
+Conseil : photo verticale sombre, 1600 px de haut minimum.
