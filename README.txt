@@ -1,42 +1,39 @@
-STRESS EN STRASS — VERSION FINALE PRO
+STRESS EN STRASS — version finale propre
 
-Structure :
-- index.html : page accueil agence + roster
-- artists/severe.html : page artiste SEVERE
-- style.css : design dark techno / gothique / industriel
-- script.js : animations propres
-- assets/logo.svg : logo tribal
-- assets/img/severe.jpg : photo artiste à remplacer
-- assets/fonts/gothicum.ttf : emplacement de ta typo
+STRUCTURE
+index.html              Accueil agence + roster
+artists/severe.html     Page artiste SEVERE
+style.css               Design dark techno / industriel / gothique
+script.js               Menu mobile + animations propres
+assets/logo.svg         Logo tribal / favicon
+assets/img/severe.jpg   Photo artiste à remplacer
+assets/img/og-cover.jpg Image de partage réseaux
+assets/img/hero-texture.jpg Texture héro
 
-IMPORTANT TYPO :
-Le site est configuré pour utiliser : assets/fonts/gothicum.ttf
-Place ton fichier gothicum.ttf dans ce dossier. Le fichier de police n'est pas inclus.
+TYPO GOTHIQUE
+Le site est configuré pour utiliser :
+assets/fonts/gothicum.ttf
 
-IMPORTANT PHOTO SEVERE :
-Remplace assets/img/severe.jpg par une vraie photo de SEVERE.
-Garde exactement le même nom : severe.jpg
-Format recommandé : vertical, sombre, 1600x2000 px minimum.
+Important : le fichier de police n'est pas inclus dans ce zip.
+Crée le dossier assets/fonts/ puis place ta police dedans avec ce nom exact : gothicum.ttf
 
-LIENS DEJA AJOUTES :
-SoundCloud : https://soundcloud.com/severefrommars
-Instagram : https://www.instagram.com/severefrommars/
+LIENS INTÉGRÉS
 Booking : booking@stressenstrass.com
+Instagram agence : https://www.instagram.com/stressenstrass_agency/
+Instagram SEVERE : https://www.instagram.com/severefrommars/
+SoundCloud SEVERE : https://soundcloud.com/severefrommars
 
-MISE EN LIGNE :
-Envoie tout le contenu du dossier sur ton hébergement.
-index.html doit être à la racine du site.
-La page SEVERE sera disponible sur : /artists/severe.html
+CE QUI A ÉTÉ NETTOYÉ
+- suppression de "ARTIST FILE 001"
+- suppression des intitulés trop brouillon
+- contenu visible dès le chargement
+- structure SEO propre
+- boutons booking préremplis
+- design responsive
+- structure prête pour ajouter d'autres artistes
 
-AJOUTER UN ARTISTE PLUS TARD :
-1. Duplique artists/severe.html
-2. Renomme le fichier : nom-artiste.html
-3. Ajoute sa photo dans assets/img/nom-artiste.jpg
-4. Modifie les textes, liens et SEO
-5. Ajoute une nouvelle carte artiste dans index.html
-
-
-LIENS MIS À JOUR
-- Instagram SEVERE : https://www.instagram.com/severefrommars/
-- Instagram agence : https://www.instagram.com/stressenstrass_agency/
-- Booking : booking@stressenstrass.com
+AJOUTER UN ARTISTE PLUS TARD
+1. Dupliquer artists/severe.html
+2. Renommer le fichier avec le nom de l'artiste
+3. Changer le nom, la bio, les styles, liens et images
+4. Ajouter une carte dans la section Roster de index.html

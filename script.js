@@ -1,3 +1,5 @@
+document.documentElement.classList.add('js');
+
 const toggle = document.querySelector('.nav-toggle');
 const nav = document.querySelector('.site-nav');
 if (toggle && nav) {
@@ -7,18 +9,24 @@ if (toggle && nav) {
   });
 }
 
-const glow = document.querySelector('.cursor-glow');
-if (glow) {
-  window.addEventListener('pointermove', (e) => {
-    glow.style.left = e.clientX + 'px';
-    glow.style.top = e.clientY + 'px';
-  });
+const revealItems = document.querySelectorAll('[data-reveal]');
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  revealItems.forEach((item) => observer.observe(item));
+} else {
+  revealItems.forEach((item) => item.classList.add('is-visible'));
 }
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) entry.target.classList.add('is-visible');
-  });
-}, { threshold: 0.12 });
-
-document.querySelectorAll('[data-reveal]').forEach((el) => observer.observe(el));
+const orb = document.querySelector('.orb');
+window.addEventListener('pointermove', (event) => {
+  if (!orb || window.matchMedia('(max-width: 880px)').matches) return;
+  orb.style.left = `${event.clientX}px`;
+  orb.style.top = `${event.clientY}px`;
+});
