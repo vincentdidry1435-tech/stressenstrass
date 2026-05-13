@@ -1,120 +1,100 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>STRESS EN STRASS — Agence techno underground</title>
-  <meta name="description" content="STRESS EN STRASS — agence artistique indépendante pour artistes techno, acid, rave et sons industriels." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STRESS EN STRASS — Agence d'artistes</title>
+  <meta name="description" content="STRESS EN STRASS — agence artistique sombre, techno industrielle, booking et développement d'artistes électroniques underground." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="noise"></div>
-  <div class="scanline"></div>
-  <div class="cursor-light" id="cursorLight"></div>
+  <div class="grain"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
 
-  <header class="topbar">
-    <a class="brand glitch" href="index.html" data-text="STRESS EN STRASS">STRESS EN STRASS</a>
+  <header class="site-header reveal">
+    <a class="brand" href="index.html" aria-label="Retour accueil">
+      <svg class="sigil" viewBox="0 0 120 120" role="img" aria-label="Logo tribal Stress en Strass">
+        <path d="M60 8 L72 38 L103 26 L84 55 L112 64 L80 73 L96 104 L67 86 L60 116 L53 86 L24 104 L40 73 L8 64 L36 55 L17 26 L48 38 Z" />
+        <path d="M60 22 L66 48 L88 42 L72 60 L91 68 L68 70 L78 94 L60 78 L42 94 L52 70 L29 68 L48 60 L32 42 L54 48 Z" />
+        <circle cx="60" cy="60" r="8" />
+      </svg>
+      <span>STRESS<br>EN STRASS</span>
+    </a>
     <nav>
-      <a href="#artists">ARTISTES</a>
-      <a href="#booking">BOOKING</a>
-      <a href="mailto:booking@stressenstrass.fr">MAIL</a>
+      <a href="#roster">Artistes</a>
+      <a href="#manifesto">Manifeste</a>
+      <a href="mailto:booking@stressenstrass.fr?subject=Booking%20-%20STRESS%20EN%20STRASS">Booking</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero section-reveal">
-      <div class="hero-kicker">AGENCE INDÉPENDANTE · TECHNO · RAVE · ACID</div>
-      <h1>
-        BOOKING POUR<br>
-        ARTISTES À<br>
-        HAUTE TENSION.
-      </h1>
-      <p class="hero-text">
-        STRESS EN STRASS représente des profils électroniques sombres, bruts et scéniques :
-        DJ sets, performances, clubs, collectifs, open airs et programmations alternatives.
-      </p>
+    <section class="hero reveal">
+      <div class="ritual-mark">NOIR / INDUSTRIEL / RAVE</div>
+      <h1>STRESS<br><span>EN STRASS</span></h1>
+      <p class="lead">Agence artistique pour figures électroniques sombres, sets industriels, performances nocturnes et bookings underground.</p>
       <div class="hero-actions">
-        <a class="btn primary" href="#artists">VOIR LES ARTISTES</a>
-        <a class="btn" href="mailto:booking@stressenstrass.fr?subject=Booking%20-%20STRESS%20EN%20STRASS">DEMANDER UN BOOKING</a>
+        <a class="btn primary" href="#roster">Voir les artistes</a>
+        <a class="btn ghost" href="mailto:booking@stressenstrass.fr?subject=Demande%20booking">Demande booking</a>
       </div>
     </section>
 
-    <section class="marquee" aria-label="styles musicaux">
-      <div class="marquee-track">
-        <span>TECHNO INDUSTRIELLE</span><span>ACID</span><span>RAVE</span><span>UNDERGROUND</span><span>CLUB PRESSURE</span><span>WAREHOUSE ENERGY</span>
-        <span>TECHNO INDUSTRIELLE</span><span>ACID</span><span>RAVE</span><span>UNDERGROUND</span><span>CLUB PRESSURE</span><span>WAREHOUSE ENERGY</span>
-      </div>
+    <section class="marquee" aria-hidden="true">
+      <div>WAREHOUSE — ACID — INDUSTRIAL TECHNO — DARK RAVE — TRIBAL SIGNAL — BOOKING — </div>
+      <div>WAREHOUSE — ACID — INDUSTRIAL TECHNO — DARK RAVE — TRIBAL SIGNAL — BOOKING — </div>
     </section>
 
-    <section class="manifest section-reveal">
-      <div class="number">01</div>
-      <div>
-        <h2>Pas une vitrine froide. Une présence.</h2>
-        <p>
-          L'agence existe pour rendre les artistes underground plus visibles, plus clairs, plus bookables —
-          sans nettoyer leur identité. Noir, brut, direct. Chaque page artiste doit donner envie d'écouter,
-          de contacter, puis de programmer.
-        </p>
-      </div>
+    <section id="manifesto" class="manifesto reveal">
+      <div class="section-kicker">Manifeste</div>
+      <h2>Une vitrine sombre pour artistes à identité forte.</h2>
+      <p>STRESS EN STRASS défend une esthétique brute : clubs noirs, béton, acier, tension, transe et lumière minimale. Le site sert à présenter les artistes clairement, centraliser leurs réseaux et déclencher des demandes de booking sans friction.</p>
     </section>
 
-    <section id="artists" class="artists section-reveal">
-      <div class="section-head">
-        <span>02</span>
-        <h2>ARTISTES</h2>
+    <section id="roster" class="roster reveal">
+      <div class="section-kicker">Roster</div>
+      <div class="roster-head">
+        <h2>Artistes</h2>
+        <p>Une grille évolutive. Ajoute de nouveaux profils quand l'agence grandit.</p>
       </div>
 
       <div class="artist-grid">
-        <a class="artist-card live" href="artists/severe.html">
-          <div class="artist-img severe-img"></div>
-          <div class="artist-meta">
-            <span class="status">AVAILABLE FOR BOOKING</span>
-            <h3>SEVERE</h3>
-            <p>Techno sombre · Acid pressure · Set industriel</p>
-          </div>
-        </a>
+        <article class="artist-card featured">
+          <a href="artists/severe.html" class="artist-link" aria-label="Voir la page artiste SEVERE">
+            <div class="artist-photo severe-photo">
+              <span>SEVERE</span>
+            </div>
+            <div class="artist-info">
+              <p class="artist-style">Techno industrielle / Dark rave / Acid pressure</p>
+              <h3>SEVERE</h3>
+              <p class="artist-copy">Set tendu, noir, frontal. Une esthétique club obscure pensée pour les programmations underground.</p>
+              <span class="card-cta">Ouvrir la fiche →</span>
+            </div>
+          </a>
+        </article>
 
-        <div class="artist-card empty">
-          <div class="empty-cross"></div>
-          <div class="artist-meta">
-            <span class="status muted">COMING SOON</span>
-            <h3>NOUVEL ARTISTE</h3>
-            <p>Duplique la page SEVERE pour ajouter un profil.</p>
+        <article class="artist-card empty-slot">
+          <div class="artist-photo"><span>+</span></div>
+          <div class="artist-info">
+            <p class="artist-style">Slot disponible</p>
+            <h3>Nouvel artiste</h3>
+            <p class="artist-copy">Duplique la page SEVERE pour ajouter un profil au roster.</p>
           </div>
-        </div>
-
-        <div class="artist-card empty">
-          <div class="empty-cross"></div>
-          <div class="artist-meta">
-            <span class="status muted">COMING SOON</span>
-            <h3>NOUVEL ARTISTE</h3>
-            <p>Structure prête pour développer le roster.</p>
-          </div>
-        </div>
+        </article>
       </div>
     </section>
 
-    <section id="booking" class="booking section-reveal">
-      <div class="section-head">
-        <span>03</span>
-        <h2>BOOKING</h2>
+    <section class="booking-panel reveal">
+      <div>
+        <div class="section-kicker">Contact</div>
+        <h2>Booking centralisé.</h2>
+        <p>Pour une demande de date, indique la ville, le lieu, le budget, le format et l'horaire souhaité.</p>
       </div>
-      <div class="booking-panel">
-        <p>
-          Pour une demande de booking, indique : date, ville, lieu, type d'événement,
-          durée souhaitée, budget approximatif, horaires et matériel disponible.
-        </p>
-        <a class="btn primary large" href="mailto:booking@stressenstrass.fr?subject=Demande%20de%20booking%20-%20STRESS%20EN%20STRASS">booking@stressenstrass.fr</a>
-      </div>
+      <a class="btn primary" href="mailto:booking@stressenstrass.fr?subject=Booking%20-%20STRESS%20EN%20STRASS">booking@stressenstrass.fr</a>
     </section>
   </main>
 
   <footer>
-    <span>STRESS EN STRASS ©</span>
-    <span>MARSEILLE / FRANCE</span>
+    <span>© STRESS EN STRASS</span>
+    <span>Dark artist agency — France</span>
   </footer>
 
   <script src="script.js"></script>

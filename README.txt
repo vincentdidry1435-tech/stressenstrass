@@ -1,25 +1,26 @@
-STRESS EN STRASS — TEMPLATE AUTHENTIC DARK TECHNO
+STRESS EN STRASS — VERSION GOTHIQUE / TRIBAL / TECHNO INDUSTRIELLE
 
 FICHIERS :
-- index.html : page d'accueil avec roster artistes
+- index.html : accueil agence + roster artistes
 - artists/severe.html : page artiste SEVERE
-- style.css : design sombre techno industriel
-- script.js : animations simples
-- assets/ : images
+- style.css : direction artistique sombre/gothique/tribale
+- script.js : animations curseur + reveal scroll
+- assets/ : dossier images
 
-PHOTO SEVERE :
-Place une image dans assets/ et nomme-la severe.jpg
-Si tu n'ajoutes pas d'image, le bloc reste sombre mais l'effet fonctionne.
+PHOTO DE SEVERE :
+1. Place la photo dans le dossier assets/
+2. Renomme-la : severe.jpg
+3. Le site l'affichera automatiquement.
 
-MODIFIER LES RÉSEAUX :
-Ouvre artists/severe.html et remplace les href="#" par les vrais liens Instagram, SoundCloud, YouTube, TikTok.
+MODIFIER LES RESEAUX :
+Ouvre artists/severe.html et remplace les href="#" par les liens réels.
 
-AJOUTER UN ARTISTE PLUS TARD :
+AJOUTER UN ARTISTE :
 1. Duplique artists/severe.html
-2. Renomme par exemple artists/nomartiste.html
-3. Remplace SEVERE par le nom de l'artiste
+2. Renomme le fichier : nomartiste.html
+3. Remplace SEVERE par le nouveau nom
 4. Ajoute sa photo dans assets/nomartiste.jpg
-5. Dans index.html, duplique la carte artiste et change le lien vers la nouvelle page.
+5. Ajoute une nouvelle carte dans index.html dans la section artist-grid.
 
-MAIL BOOKING :
-Tous les boutons sont branchés sur booking@stressenstrass.fr
+EMAIL BOOKING :
+Tous les boutons pointent vers booking@stressenstrass.fr
