@@ -1,47 +1,31 @@
-STRESS EN STRASS — SITE SEO READY
+STRESS EN STRASS — TEMPLATE PRO TECHNO / HARD TECHNO
 
-FICHIERS :
-- index.html : page d'accueil agence
+Structure :
+- index.html : accueil agence + roster
 - artists/severe.html : page artiste SEVERE
-- style.css : design sombre techno industrielle
-- script.js : animations au scroll
-- assets/ : images
+- style.css : design complet
+- script.js : animations
+- assets/favicon.svg : logo tribal
+- assets/og-cover.jpg : image de partage social
+- assets/severe.jpg : image artiste SEVERE
 
-MISE EN LIGNE IONOS :
-1. Dézippe le dossier.
-2. Envoie index.html, style.css, script.js, le dossier artists et le dossier assets à la racine de ton hébergement.
-3. La page d'accueil sera accessible sur https://stressenstrass.fr/
-4. La page SEVERE sera accessible sur https://stressenstrass.fr/artists/severe.html
+MODIFIER SEVERE
+1. Remplace assets/severe.jpg par une vraie photo de l'artiste.
+2. Ouvre artists/severe.html.
+3. Remplace les liens # de Instagram / SoundCloud / YouTube / TikTok.
+4. Modifie la bio, la ville, les styles si besoin.
 
-PHOTO SEVERE :
-- Mets la photo dans assets/
-- Renomme-la severe.jpg
-- Taille conseillée : 1600 px de haut minimum, format portrait.
+AJOUTER UN ARTISTE
+1. Copie artists/severe.html.
+2. Renomme le fichier : nouvel-artiste.html.
+3. Remplace SEVERE par le nom de l'artiste.
+4. Ajoute sa photo dans assets/nom-artiste.jpg.
+5. Dans index.html, copie la carte artiste SEVERE et modifie le lien, nom, style et image.
 
-IMPORTANT :
-Le site fonctionne même sans photo : une zone placeholder s'affiche.
+BOOKING
+Le mail utilisé partout est : booking@stressenstrass.fr
+Tu peux chercher/remplacer cette adresse si tu veux en utiliser une autre.
 
-RÉSEAUX SEVERE :
-Ouvre artists/severe.html et remplace les liens # dans la section :
-Instagram, SoundCloud, YouTube, TikTok.
-
-BOOKING :
-Tous les boutons pointent vers : booking@stressenstrass.fr
-
-SEO DÉJÀ INCLUS :
-- titles différents accueil / SEVERE
-- meta descriptions
-- balises canonical
-- Open Graph pour partage réseaux
-- Twitter cards
-- données structurées Schema.org
-- headings H1/H2 propres
-- balises alt image
-- responsive mobile
-
-POUR AJOUTER UN ARTISTE :
-1. Duplique artists/severe.html
-2. Renomme le fichier : nom-artiste.html
-3. Remplace SEVERE par le nouveau nom
-4. Ajoute sa photo dans assets/nom-artiste.jpg
-5. Ajoute une carte artiste dans index.html en copiant le bloc <article class="artist-card">.
+MISE EN LIGNE IONOS
+Envoie tout le contenu du dossier à la racine de l'hébergement :
+index.html, style.css, script.js, assets/, artists/

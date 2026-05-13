@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#030303"/><path d="M32 4l8 20 20-8-12 16 12 16-20-8-8 20-8-20-20 8 12-16L4 16l20 8z" fill="none" stroke="#c3162b" stroke-width="3"/><circle cx="32" cy="32" r="5" fill="#c3162b"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="STRESS EN STRASS logo">
+  <rect width="120" height="120" fill="#030303"/>
+  <path d="M60 8 72 35 102 22 83 52 113 60 83 68 102 98 72 85 60 112 48 85 18 98 37 68 7 60 37 52 18 22 48 35Z" fill="none" stroke="#eee9df" stroke-width="3"/>
+  <path d="M60 24 69 49 95 40 75 59 95 80 69 71 60 96 51 71 25 80 45 59 25 40 51 49Z" fill="none" stroke="#7d0f16" stroke-width="3"/>
+  <text x="60" y="67" fill="#eee9df" font-size="22" text-anchor="middle" font-family="serif">S</text>
+</svg>
