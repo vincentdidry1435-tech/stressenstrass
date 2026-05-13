@@ -1,34 +1,33 @@
-STRESS EN STRASS — VERSION AGENCE PRO DIAMOND
+STRESS EN STRASS — VERSION FINALE AGENCE
 
-Fichiers :
-- index.html : accueil agence + roster
-- artists/severe.html : page artiste SEVERE
-- style.css : design dark techno / gothique / industriel
-- script.js : animations, cursor diamant, reveal scroll
-- assets/logo.svg : logo tribal sombre
-- assets/img/severe.jpg : photo provisoire à remplacer
-- assets/img/og-cover.jpg : image de partage SEO
+Cette version est construite comme une vraie vitrine d'agence de booking techno / hard techno / industrielle :
+- Homepage agence forte
+- Roster évolutif
+- Page artiste SEVERE
+- Diamant 3D animé
+- Curseur diamant
+- SoundCloud SEVERE intégré
+- Instagram agence et artiste intégrés
+- Tous les boutons booking vers booking@stressenstrass.com
+- SEO propre
 
 IMPORTANT TYPO :
-Le fichier de police n'est pas inclus.
-Pour utiliser la typo gothique envoyée, mets ton fichier ici :
+Le fichier gothicum.ttf n'est pas inclus.
+Mets ton fichier de typo ici :
 assets/fonts/gothicum.ttf
 
-BOOKING :
-Tous les boutons booking pointent vers :
-booking@stressenstrass.com
+PHOTO SEVERE :
+Remplace la photo provisoire par ta vraie photo ici :
+assets/img/severe.jpg
+Garde exactement le même nom.
 
-INSTAGRAM :
-Agence : https://www.instagram.com/stressenstrass_agency/
-SEVERE : https://www.instagram.com/severefrommars/
-
-SOUNDCLOUD :
-SEVERE : https://soundcloud.com/severefrommars
-
-PHOTO :
-Remplace assets/img/severe.jpg par une vraie photo artiste, en gardant le même nom.
+LIENS :
+Agence Instagram : https://www.instagram.com/stressenstrass_agency/
+SEVERE Instagram : https://www.instagram.com/severefrommars/
+SEVERE SoundCloud : https://soundcloud.com/severefrommars
+Booking : booking@stressenstrass.com
 
 MISE EN LIGNE IONOS :
-Envoie tout le contenu du dossier à la racine de l'hébergement.
-La page SEVERE sera accessible via :
-/artists/severe.html
+Envoie tout le contenu du dossier à la racine de ton hébergement.
+La page d'accueil doit être index.html.
+La page SEVERE sera accessible ici : /artists/severe.html
