@@ -1,29 +1,36 @@
-STRESS EN STRASS — version SEVERE enrichie
+STRESS EN STRASS — VERSION FINALE PRO
 
-FICHIERS :
-- index.html : accueil agence + roster
+Structure :
+- index.html : page accueil agence + roster
 - artists/severe.html : page artiste SEVERE
 - style.css : design dark techno / gothique / industriel
-- script.js : animations
-- assets/severe.jpg : photo SEVERE à remplacer
-- assets/favicon.svg : logo tribal
+- script.js : animations propres
+- assets/logo.svg : logo tribal
+- assets/img/severe.jpg : photo artiste à remplacer
+- assets/fonts/gothicum.ttf : emplacement de ta typo
 
-TYPO GOTHICUM :
+IMPORTANT TYPO :
 Le site est configuré pour utiliser : assets/fonts/gothicum.ttf
-Le fichier de police n'est pas inclus.
-Crée le dossier assets/fonts/ puis mets ton fichier gothicum.ttf dedans.
+Place ton fichier gothicum.ttf dans ce dossier. Le fichier de police n'est pas inclus.
 
-SOUNDCLOUD :
-Le profil intégré est : https://soundcloud.com/severefrommars
-La page artiste contient un player SoundCloud intégré.
+IMPORTANT PHOTO SEVERE :
+Remplace assets/img/severe.jpg par une vraie photo de SEVERE.
+Garde exactement le même nom : severe.jpg
+Format recommandé : vertical, sombre, 1600x2000 px minimum.
 
-INSTAGRAM :
-Le lien actuellement mis est : https://www.instagram.com/severefrommars/
-À vérifier. Si ce n'est pas le bon compte, remplace-le dans index.html et artists/severe.html.
+LIENS DEJA AJOUTES :
+SoundCloud : https://soundcloud.com/severefrommars
+Instagram : https://www.instagram.com/severefrommars/
+Booking : booking@stressenstrass.fr
 
-BOOKING :
-Tous les boutons ouvrent un mail vers : booking@stressenstrass.fr
+MISE EN LIGNE :
+Envoie tout le contenu du dossier sur ton hébergement.
+index.html doit être à la racine du site.
+La page SEVERE sera disponible sur : /artists/severe.html
 
-PHOTO :
-Remplace assets/severe.jpg par une vraie photo en gardant exactement le même nom.
-Conseil : photo verticale sombre, 1600 px de haut minimum.
+AJOUTER UN ARTISTE PLUS TARD :
+1. Duplique artists/severe.html
+2. Renomme le fichier : nom-artiste.html
+3. Ajoute sa photo dans assets/img/nom-artiste.jpg
+4. Modifie les textes, liens et SEO
+5. Ajoute une nouvelle carte artiste dans index.html

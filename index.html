@@ -3,63 +3,120 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>STRESS EN STRASS — Booking techno industrielle & hard techno</title>
-  <meta name="description" content="STRESS EN STRASS est une agence de booking underground dédiée aux artistes techno industrielle, hard techno et rave. Découvrez le roster et bookez SEVERE." />
-  <meta name="keywords" content="booking hard techno, agence techno industrielle, SEVERE DJ Marseille, artiste techno Marseille, booking DJ techno France" />
-  <meta name="robots" content="index,follow" />
+  <title>STRESS EN STRASS — Agence booking techno industrielle & hard techno</title>
+  <meta name="description" content="STRESS EN STRASS est une agence de booking dédiée aux artistes hard techno, techno industrielle, acid, rave et underground. Découvrez le roster et contactez-nous pour booker SEVERE." />
+  <meta name="keywords" content="booking techno, agence techno, hard techno, techno industrielle, artiste techno Marseille, SEVERE, DJ hard techno, agence booking underground" />
+  <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://stressenstrass.fr/" />
-  <meta property="og:title" content="STRESS EN STRASS — Underground Booking Agency" />
-  <meta property="og:description" content="Roster techno industrielle, hard techno et rave. Booking artiste : SEVERE." />
+  <meta property="og:title" content="STRESS EN STRASS — Techno Industrial Booking" />
+  <meta property="og:description" content="Agence de booking pour artistes hard techno, techno industrielle, acid, rave et underground." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://stressenstrass.fr/" />
-  <meta property="og:image" content="https://stressenstrass.fr/assets/severe.jpg" />
+  <meta property="og:image" content="https://stressenstrass.fr/assets/img/og-cover.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="preload" href="assets/fonts/gothicum.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "STRESS EN STRASS",
+    "url": "https://stressenstrass.fr",
+    "email": "booking@stressenstrass.fr",
+    "description": "Agence de booking pour artistes hard techno, techno industrielle, acid, rave et underground.",
+    "sameAs": []
+  }
+  </script>
 </head>
 <body>
-  <div class="grain" aria-hidden="true"></div><div class="cursor-glow" aria-hidden="true"></div>
-  <header class="site-header">
-    <a class="brand" href="index.html"><img src="assets/favicon.svg" alt="Logo tribal STRESS EN STRASS" /><span>STRESS EN STRASS</span></a>
-    <nav><a href="#roster">Roster</a><a href="#booking">Booking</a><a href="artists/severe.html">SEVERE</a></nav>
+  <div class="noise"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header" data-reveal>
+    <a class="brand" href="index.html" aria-label="Accueil STRESS EN STRASS">
+      <img src="assets/logo.svg" alt="Logo tribal STRESS EN STRASS" class="brand-mark" />
+      <span>STRESS EN STRASS</span>
+    </a>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">MENU</button>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <a href="#roster">Roster</a>
+      <a href="#agency">Agency</a>
+      <a href="#booking">Booking</a>
+      <a href="artists/severe.html">SEVERE</a>
+    </nav>
   </header>
+
   <main>
-    <section class="hero block reveal">
-      <p class="eyebrow">Underground booking agency · Marseille / France</p>
-      <h1>Hard techno.<br>Industrial pressure.<br>Rave bodies.</h1>
-      <div class="hero-line"></div>
-      <p class="lead">STRESS EN STRASS développe et représente des profils électroniques sombres, frontaux et taillés pour clubs, warehouses, collectifs et programmations alternatives.</p>
-      <div class="actions">
-        <a class="btn primary" href="mailto:booking@stressenstrass.fr?subject=Booking%20request%20-%20STRESS%20EN%20STRASS">Booking request</a>
-        <a class="btn ghost" href="#roster">View roster</a>
+    <section class="hero full-bleed">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-inner" data-reveal>
+        <p class="eyebrow">Marseille / France · Industrial techno booking</p>
+        <h1>HARD TECHNO<br><span>UNDERGROUND</span><br>BOOKING AGENCY</h1>
+        <p class="lead">STRESS EN STRASS représente des artistes à haute intensité : techno industrielle, hard techno, acid, rave et performances orientées club.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="artists/severe.html">Découvrir SEVERE</a>
+          <a class="btn" href="mailto:booking@stressenstrass.fr?subject=Booking%20request%20-%20STRESS%20EN%20STRASS">Booking request</a>
+        </div>
+      </div>
+      <div class="ticker" aria-hidden="true"><span>TECHNO · INDUSTRIAL · ACID · RAVE · UNDERGROUND · BOOKING · MARSEILLE · FRANCE · </span></div>
+    </section>
+
+    <section id="roster" class="section roster-section">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Roster 001</p>
+        <h2>Artists</h2>
+      </div>
+
+      <div class="artist-grid">
+        <article class="artist-card featured" data-reveal>
+          <a href="artists/severe.html" class="artist-link" aria-label="Voir la page artiste SEVERE">
+            <div class="artist-photo severe-photo" role="img" aria-label="Photo de SEVERE"></div>
+            <div class="artist-content">
+              <p class="artist-number">01</p>
+              <h3>SEVERE</h3>
+              <p>Hard techno · Industrial · Acid · Rave</p>
+              <span class="card-cta">Open artist file</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="artist-card ghost" data-reveal>
+          <div class="artist-content">
+            <p class="artist-number">02</p>
+            <h3>Next artist</h3>
+            <p>New roster announcement soon.</p>
+            <span class="card-cta muted">Pending</span>
+          </div>
+        </article>
       </div>
     </section>
-    <section id="roster" class="block reveal roster-section">
-      <div class="section-head"><p class="eyebrow">Roster 001</p><h2>Artists</h2></div>
-      <article class="artist-card severe-card">
-        <a href="artists/severe.html" class="artist-image"><img src="assets/severe.jpg" alt="SEVERE — artiste hard techno et techno industrielle basée à Marseille" /></a>
-        <div class="artist-content">
-          <p class="tagline">Marseille · Hard Techno · Industrial · Rave</p>
-          <h3>SEVERE</h3>
-          <p>Une présence frontale, sombre et sans détour : SEVERE travaille une énergie hard techno industrielle pensée pour les dancefloors à haute intensité.</p>
-          <div class="mini-links">
-            <a href="artists/severe.html">Profile</a>
-            <a href="https://soundcloud.com/severefrommars" target="_blank" rel="noopener">SoundCloud</a>
-            <a href="https://www.instagram.com/severefrommars/" target="_blank" rel="noopener">Instagram</a>
-            <a href="mailto:booking@stressenstrass.fr?subject=Booking%20SEVERE">Booking</a>
-          </div>
-        </div>
-      </article>
-      <div class="coming-soon"><span>More artists soon</span><p>Le roster est volontairement serré : chaque artiste doit avoir une identité claire, un son identifiable et une vraie page booking.</p></div>
+
+    <section id="agency" class="section split">
+      <div data-reveal>
+        <p class="eyebrow">Agency</p>
+        <h2>Une vitrine sombre, directe, pensée pour les programmateurs.</h2>
+      </div>
+      <div class="copy-block" data-reveal>
+        <p>STRESS EN STRASS est une agence indépendante construite pour rendre les artistes électroniques underground plus lisibles, plus désirables et plus faciles à booker.</p>
+        <p>Le roster privilégie les projets à identité forte : énergie industrielle, kicks frontaux, tension rave, esthétique noire, formats club et événements alternatifs.</p>
+      </div>
     </section>
-    <section id="booking" class="block reveal booking-panel">
-      <p class="eyebrow">Promoters / Clubs / Collectives</p>
+
+    <section id="booking" class="section booking-panel" data-reveal>
+      <p class="eyebrow">For promoters</p>
       <h2>Booking request</h2>
-      <p>Pour toute demande, indiquez la date, la ville, le lieu, le format de l’événement, l’horaire souhaité, la durée du set, le budget, le matériel disponible et les liens de votre structure.</p>
-      <a class="btn primary" href="mailto:booking@stressenstrass.fr?subject=Booking%20request%20-%20STRESS%20EN%20STRASS&body=Date%20:%0AVille%20:%0ALieu%20:%0AArtiste%20souhaitee%20:%20SEVERE%0AFormat%20:%0AHoraire%20:%0ADuree%20du%20set%20:%0ABudget%20:%0AMateriel%20disponible%20:%0ALiens%20evenement%20:%0AMessage%20:">booking@stressenstrass.fr</a>
+      <p>Pour toute demande, indiquez la date, la ville, le lieu, le format, l’horaire souhaité, le budget, le matériel disponible et les liens de votre événement.</p>
+      <a class="btn primary big" href="mailto:booking@stressenstrass.fr?subject=Booking%20request%20-%20STRESS%20EN%20STRASS&body=Bonjour%20STRESS%20EN%20STRASS,%0D%0A%0D%0AJe%20souhaite%20faire%20une%20demande%20de%20booking.%0D%0A%0D%0AArtiste%20souhait%C3%A9e%20:%20SEVERE%0D%0ADate%20:%20%0D%0AVille%20/%20lieu%20:%20%0D%0AType%20d%27%C3%A9v%C3%A9nement%20:%20%0D%0AHoraire%20/%20dur%C3%A9e%20:%20%0D%0ABudget%20:%20%0D%0AMat%C3%A9riel%20sur%20place%20:%20%0D%0ALien%20%C3%A9v%C3%A9nement%20:%20%0D%0A%0D%0AMerci.">booking@stressenstrass.fr</a>
     </section>
   </main>
-  <footer><span>© STRESS EN STRASS</span><span>Techno industrielle · Hard techno · Rave booking</span></footer>
-  <script src="script.js" defer></script>
+
+  <footer class="site-footer">
+    <span>© STRESS EN STRASS</span>
+    <span>Hard techno · Industrial · Acid · Rave</span>
+    <a href="mailto:booking@stressenstrass.fr">booking@stressenstrass.fr</a>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
