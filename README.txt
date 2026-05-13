@@ -21,7 +21,7 @@ Format recommandé : vertical, sombre, 1600x2000 px minimum.
 LIENS DEJA AJOUTES :
 SoundCloud : https://soundcloud.com/severefrommars
 Instagram : https://www.instagram.com/severefrommars/
-Booking : booking@stressenstrass.fr
+Booking : booking@stressenstrass.com
 
 MISE EN LIGNE :
 Envoie tout le contenu du dossier sur ton hébergement.
@@ -34,3 +34,9 @@ AJOUTER UN ARTISTE PLUS TARD :
 3. Ajoute sa photo dans assets/img/nom-artiste.jpg
 4. Modifie les textes, liens et SEO
 5. Ajoute une nouvelle carte artiste dans index.html
+
+
+LIENS MIS À JOUR
+- Instagram SEVERE : https://www.instagram.com/severefrommars/
+- Instagram agence : https://www.instagram.com/stressenstrass_agency/
+- Booking : booking@stressenstrass.com
