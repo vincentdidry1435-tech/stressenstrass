@@ -1,39 +1,34 @@
-STRESS EN STRASS — version finale propre
+STRESS EN STRASS — VERSION AGENCE PRO DIAMOND
 
-STRUCTURE
-index.html              Accueil agence + roster
-artists/severe.html     Page artiste SEVERE
-style.css               Design dark techno / industriel / gothique
-script.js               Menu mobile + animations propres
-assets/logo.svg         Logo tribal / favicon
-assets/img/severe.jpg   Photo artiste à remplacer
-assets/img/og-cover.jpg Image de partage réseaux
-assets/img/hero-texture.jpg Texture héro
+Fichiers :
+- index.html : accueil agence + roster
+- artists/severe.html : page artiste SEVERE
+- style.css : design dark techno / gothique / industriel
+- script.js : animations, cursor diamant, reveal scroll
+- assets/logo.svg : logo tribal sombre
+- assets/img/severe.jpg : photo provisoire à remplacer
+- assets/img/og-cover.jpg : image de partage SEO
 
-TYPO GOTHIQUE
-Le site est configuré pour utiliser :
+IMPORTANT TYPO :
+Le fichier de police n'est pas inclus.
+Pour utiliser la typo gothique envoyée, mets ton fichier ici :
 assets/fonts/gothicum.ttf
 
-Important : le fichier de police n'est pas inclus dans ce zip.
-Crée le dossier assets/fonts/ puis place ta police dedans avec ce nom exact : gothicum.ttf
+BOOKING :
+Tous les boutons booking pointent vers :
+booking@stressenstrass.com
 
-LIENS INTÉGRÉS
-Booking : booking@stressenstrass.com
-Instagram agence : https://www.instagram.com/stressenstrass_agency/
-Instagram SEVERE : https://www.instagram.com/severefrommars/
-SoundCloud SEVERE : https://soundcloud.com/severefrommars
+INSTAGRAM :
+Agence : https://www.instagram.com/stressenstrass_agency/
+SEVERE : https://www.instagram.com/severefrommars/
 
-CE QUI A ÉTÉ NETTOYÉ
-- suppression de "ARTIST FILE 001"
-- suppression des intitulés trop brouillon
-- contenu visible dès le chargement
-- structure SEO propre
-- boutons booking préremplis
-- design responsive
-- structure prête pour ajouter d'autres artistes
+SOUNDCLOUD :
+SEVERE : https://soundcloud.com/severefrommars
 
-AJOUTER UN ARTISTE PLUS TARD
-1. Dupliquer artists/severe.html
-2. Renommer le fichier avec le nom de l'artiste
-3. Changer le nom, la bio, les styles, liens et images
-4. Ajouter une carte dans la section Roster de index.html
+PHOTO :
+Remplace assets/img/severe.jpg par une vraie photo artiste, en gardant le même nom.
+
+MISE EN LIGNE IONOS :
+Envoie tout le contenu du dossier à la racine de l'hébergement.
+La page SEVERE sera accessible via :
+/artists/severe.html

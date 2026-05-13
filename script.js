@@ -1,32 +1,9 @@
-document.documentElement.classList.add('js');
-
-const toggle = document.querySelector('.nav-toggle');
-const nav = document.querySelector('.site-nav');
-if (toggle && nav) {
-  toggle.addEventListener('click', () => {
-    const open = nav.classList.toggle('open');
-    toggle.setAttribute('aria-expanded', String(open));
-  });
+const cursor = document.querySelector('.cursor-dot');
+if (cursor && window.matchMedia('(pointer:fine)').matches) {
+  let x = innerWidth / 2, y = innerHeight / 2, tx = x, ty = y;
+  window.addEventListener('mousemove', e => { tx = e.clientX; ty = e.clientY; });
+  const loop = () => { x += (tx - x) * .18; y += (ty - y) * .18; cursor.style.transform = `translate(${x}px, ${y}px) translate(-50%, -50%)`; requestAnimationFrame(loop); };
+  loop();
 }
-
-const revealItems = document.querySelectorAll('[data-reveal]');
-if ('IntersectionObserver' in window) {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.12 });
-  revealItems.forEach((item) => observer.observe(item));
-} else {
-  revealItems.forEach((item) => item.classList.add('is-visible'));
-}
-
-const orb = document.querySelector('.orb');
-window.addEventListener('pointermove', (event) => {
-  if (!orb || window.matchMedia('(max-width: 880px)').matches) return;
-  orb.style.left = `${event.clientX}px`;
-  orb.style.top = `${event.clientY}px`;
-});
+const io = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('is-visible'); }), {threshold:.12});
+document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
